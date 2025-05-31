@@ -1,6 +1,7 @@
 import 'package:authscreen/Screen/different_loginScreen/login_screen_five.dart';
 import 'package:authscreen/Screen/different_loginScreen/login_screen_four.dart';
 import 'package:authscreen/Screen/different_loginScreen/login_screen_one.dart';
+import 'package:authscreen/Screen/different_loginScreen/login_screen_seven.dart';
 import 'package:authscreen/Screen/different_loginScreen/login_screen_six.dart';
 import 'package:authscreen/Screen/different_loginScreen/login_screen_three.dart';
 import 'package:authscreen/Screen/different_loginScreen/login_screen_two.dart';
@@ -21,7 +22,8 @@ class Auth extends StatelessWidget {
      LoginScreenThree(),
      LoginScreenFour(),
      LoginScreenFive(),
-     LoginScreenSix()
+     LoginScreenSix(),
+     LoginScreenSeven()
     ];
 
     return Scaffold(
